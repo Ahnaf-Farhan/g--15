@@ -12,7 +12,6 @@ int main()
     for(int i=0;i<3;i++)
        {
          scanf("%d",&rib[i]);
-         
        }
 
     qsort(rib,3,sizeof(int),cmp); 

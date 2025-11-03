@@ -14,6 +14,7 @@ int main()
 
          for (int i = 0; yn[i]; i++)      //condition ta bhalo trick,string er sesh e '\0',ashle logical false hbe condition
             yn[i] = toupper(yn[i]);
+            
 
             
          if(strcmp(yn,"YES")==0)         //string comparison
