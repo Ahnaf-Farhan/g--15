@@ -1,0 +1,1 @@
+{"name":"Local: 1676A_Lucky","url":"/Users/apple/Documents/code_force/1676A_Lucky.c","tests":[{"id":1762101895687,"input":"5\n213132\n973894\n045207\n000000\n055776","output":"YES\nNO\nYES\nYES\nNO"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/apple/Documents/code_force/1676A_Lucky.c","group":"local","local":true}
