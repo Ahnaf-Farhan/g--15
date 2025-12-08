@@ -1,0 +1,1 @@
+{"name":"Local: 279B_Books","url":"/Users/apple/Documents/code_force/279B_Books.c","tests":[{"id":1764700655763,"input":"6 10\n2 3 4 2 1 1","output":"4"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/apple/Documents/code_force/279B_Books.c","group":"local","local":true}

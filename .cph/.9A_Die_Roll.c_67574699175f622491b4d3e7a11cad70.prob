@@ -1,0 +1,1 @@
+{"name":"Local: 9A_Die_Roll","url":"/Users/apple/Documents/code_force/9A_Die_Roll.c","tests":[{"id":1764683353742,"input":"5 1","output":"1/3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"/Users/apple/Documents/code_force/9A_Die_Roll.c","group":"local","local":true}
