@@ -29,7 +29,7 @@ int main()
                     else if(i<5 && j>4)
                       {
                         if(j-l<i)
-                          res+=j+1;
+                          res+=j-l+1;
                         else
                           res+=i+1;
                       } 
@@ -45,20 +45,18 @@ int main()
                         else
                           {
                             if(j-l<i-k)
-                              res+=j+1;
+                              res+=j-l+1;
                             else
                               res+=i-k+1;
                           }
                       }  
                       
-                    if(j>4)
-                     l+=2;
-
-                    if(i>4)
-                      k+=2; 
- 
                   }
+                if(j>4)
+                  l+=2;
               }
+                    if(i>4)
+                      k+=2;  
         }
         cout<<res<<endl;
               

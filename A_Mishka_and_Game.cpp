@@ -4,7 +4,7 @@ int main()
 {
     int n;
     cin>>n;
-    vector<pair<int,int>>v[n];
+    vector<pair<int,int>>v(n);
     for(int i=0;i<n;i++)
        {
          int x,y;
