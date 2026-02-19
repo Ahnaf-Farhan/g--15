@@ -2,33 +2,21 @@
 using namespace std;
 int main()
 {
-    long long t;
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+    
+    int t;
     cin>>t;
     while(t--)
-      {
-        long long x,y,k;
-        cin>>x>>y>>k;
-        int flag=0;
-        for(long long i=k;i>=k/2;i--)
-        {
-            if(i%x==y)
-              {
-                cout<<i<<endl;
-                flag=1;
-                break;
-              }  
-        }
-        if(!flag)
-           {
-             for(long long i=(k/2)+1;i>=0;i--)
-            {
-            if(i%x==y)
-              {
-                cout<<i<<endl;
+    {
+        int x,y,n;
+        cin>>x>>y>>n;
 
-                break;
-              }  
-            }
-           }
-      }
+        if(n%x<y)
+          cout<<(n-n%x)-x+y<<endl;
+        else
+          cout<<n-(n%x-y)<<endl; 
+    }
+    
+    return 0;
 }
